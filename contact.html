@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <style>
+        #tag {
+            text-align: center;
+            color: #c3bfd8;
+            font-family: lato, sans-serif;
+            font-size: 50px;
+            margin-top: 50px;
+        }
+
+        #contact {
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+            margin-left: 90px;
+            font-family: lato, sans-serif;
+        }
+
+        #contact>div {
+            margin-top: 10px;
+            color: #c3bfd8;
+        }
+
+        #contact>div>img {
+            display: block;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+        }
+
+        #contact>div {
+            display: grid;
+            align-items: center;
+            margin-left: 25px;
+        }
+
+        #contact>div>a {
+            text-decoration: none;
+            color: #c3bfd8;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div id="tag">
+        <p>Contact Me</p>
+    </div>
+    <div id="contact">
+        <div>
+            <img src="./images/clipart2072371.png" alt="location logo not found">
+            <img src="./images/mobile.jpg" alt="mobile logo not found">
+            <img src="./images/gmail.webp" alt="gamil logo not found">
+            <img src="./images/linkedin.png" alt="linkedin logo not found">
+            <img src="./images/GitHub-Logo.png" alt="github logo not found">
+        </div>
+        <div>
+            <p>Surat, Gujarat</p>
+            <p>+91-9033757101</p>
+            <a href="https://mail.google.com/">rajputyash006@gmail.com</a>
+            <a href="https://www.linkedin.com/in/rajputyash006/">https://www.linkedin.com/in/rajputyash006/</a>
+            <a href="https://github.com/rajputyash006">https://github.com/rajputyash006</a>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
+
+<script type="module">
+    import navbar from "../component/navbar.js";
+    document.getElementById("navbar").innerHTML = navbar();
+</script>
