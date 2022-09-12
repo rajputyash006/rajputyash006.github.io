@@ -68,7 +68,7 @@ body {
   justify-content: space-evenly;
   column-gap: 60px;
   height: 500px;
-  color: #66e570;
+  color: white;
   font-family: lato, sans-serif;
 }
 
@@ -76,7 +76,7 @@ body {
   padding: 15px;
   width: 50%;
   margin-left: 80px;
-  background-color: #fff78527;
+  background-color: #5cdb933b;
   box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 
