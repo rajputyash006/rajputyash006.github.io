@@ -7,11 +7,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/index.css">
+    <style>
+        #pro {
+            display: flex;
+            height: 550px;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+        }
+
+        #pro>div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        #div11>img {
+            width: 350px;
+            height: 250px;
+            border-radius: 10px;
+        }
+
+        #div11>img:hover {
+            transform: scale(1.1);
+        }
+
+        #div12 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 25px;
+        }
+
+        #div12>button {
+            height: 32px;
+            padding: 5px 15px;
+            border-radius: 5px;
+            border: none;
+            background-color: #fe461e;
+        }
+
+        #div12>button:hover {
+            background-color: #051232;
+        }
+
+        #div12>button>a {
+            text-decoration: none;
+            font-size: 19px;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
     <div id="navbar"></div>
+    <div id="pro">
+        <div id="div1">
+            <div id="div11">
+                <img src="./images/prj1.PNG" alt="prj image not found">
+            </div>
+            <div id="div12">
+                <button><a href="https://github.com/aakarshpatel84/Web-19-U2-Project">Source Code</a></button>
+                <button> <a href="https://aesthetic-brigadeiros-598272.netlify.app/">Watch Live</a></button>
+            </div>
 
+        </div>
+        <div id="div2">
+            <div id="div11">
+                <img src="./images/prj2.PNG" alt="prj image not found">
+            </div>
+            <div id="div12">
+                <button><a href="https://github.com/rajputyash006/habitual-hope-140">Source Code</a></button>
+                <button> <a href="https://aesthetic-brigadeiros-598272.netlify.app/">Watch Live</a></button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
