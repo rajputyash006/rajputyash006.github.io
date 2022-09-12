@@ -10,6 +10,13 @@ body {
   height: 98vh;
 }
 
+#vid {
+  position: fixed;
+  width: 100%;
+  margin-top: -50px;
+  z-index: -1;
+}
+
 #navbar {
   display: flex;
   justify-content: flex-end;
@@ -32,7 +39,7 @@ body {
 
 #navbar11 > div > a {
   text-decoration: none;
-  color: #c3bfd8;
+  color: white;
 }
 
 #navbar11 > div {
@@ -43,10 +50,11 @@ body {
 #navbar11 > div:hover {
   cursor: pointer;
   background-color: #fd7c1e;
+  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 
 #navbar > div {
-  color: #c3bfd8;
+  color: white;
   font-size: 20px;
 }
 
@@ -57,11 +65,24 @@ body {
 #content {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  column-gap: 60px;
   height: 500px;
-  margin-top: -25px;
-  color: #fe461e;
+  color: #66e570;
   font-family: lato, sans-serif;
-  padding-left: 75px;
+}
+
+#content > div:nth-child(1) {
+  padding: 15px;
+  width: 50%;
+  margin-left: 80px;
+  background-color: #fff78527;
+  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+}
+
+#content > div:nth-child(2) {
+  background-color: rgba(255, 255, 255, 0.089);
+  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 
 #content > div:nth-child(1) > p:nth-child(2) {
@@ -93,17 +114,16 @@ body {
 }
 
 #content > div:nth-child(1) > p:nth-child(5) {
-  color: #c3bfd8;
   font-size: 20px;
   margin-top: 15px;
-  word-spacing: 5px;
-  line-height: 25px;
-  width: 70%;
+  word-spacing: 3px;
+  line-height: 26px;
+  width: 85%;
   font-family: lato, sans-serif;
 }
 
 #content > div:nth-child(2) > img {
-  margin-right: 175px;
+  margin-right: 0px;
   width: 300px;
   height: 300px;
   border-radius: 100%;

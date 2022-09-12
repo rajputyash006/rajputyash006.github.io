@@ -14,6 +14,7 @@
             font-family: lato, sans-serif;
             font-size: 50px;
             margin-top: 50px;
+            box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
         }
 
         #contact {
@@ -27,7 +28,7 @@
         #contact>div:nth-child(1) {
             display: flex;
             flex-direction: column;
-            gap: 9px;
+            gap: 25px;
             margin-left: 25px;
             margin-top: 10px;
             color: #c3bfd8;
@@ -39,31 +40,49 @@
             gap: 34px;
             margin-left: 25px;
             margin-top: 10px;
-            color: #c3bfd8;
+            color: white;
         }
 
         #contact>div>img {
             display: block;
-            width: 40px;
-            height: 40px;
+            width: 45px;
+            height: 45px;
             border-radius: 100%;
+        }
+
+        #contact>div>p {
+            padding: 10px;
+        }
+
+        #contact>div>p:hover {
+            transform: scale(1.1);
+            box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
         }
 
         #contact>div>a {
             text-decoration: none;
-            color: #c3bfd8;
+            color: white;
+            padding: 10px;
+        }
+
+        #contact>div>a:hover {
+            transform: scale(1.1);
+            box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
         }
     </style>
 </head>
 
 <body>
+    <video autoplay loop muted id="vid">
+        <source src="./images/Arka Plan HD.mkv">
+    </video>
     <div id="navbar"></div>
     <div id="tag">
         <p>Contact Me</p>
     </div>
     <div id="contact">
         <div>
-            <img src="./images/clipart2072371.png" alt="location logo not found">
+            <img src="./images/location123.jpg" alt="location logo not found">
             <img src="./images/mobile.jpg" alt="mobile logo not found">
             <img src="./images/gmail.webp" alt="gamil logo not found">
             <img src="./images/linkedin.png" alt="linkedin logo not found">
