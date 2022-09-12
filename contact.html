@@ -10,7 +10,7 @@
     <style>
         #tag {
             text-align: center;
-            color: #c3bfd8;
+            color: #fe461e;
             font-family: lato, sans-serif;
             font-size: 50px;
             margin-top: 50px;
@@ -24,7 +24,20 @@
             font-family: lato, sans-serif;
         }
 
-        #contact>div {
+        #contact>div:nth-child(1) {
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+            margin-left: 25px;
+            margin-top: 10px;
+            color: #c3bfd8;
+        }
+
+        #contact>div:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            gap: 34px;
+            margin-left: 25px;
             margin-top: 10px;
             color: #c3bfd8;
         }
@@ -34,12 +47,6 @@
             width: 40px;
             height: 40px;
             border-radius: 100%;
-        }
-
-        #contact>div {
-            display: grid;
-            align-items: center;
-            margin-left: 25px;
         }
 
         #contact>div>a {
