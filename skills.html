@@ -8,9 +8,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/index.css">
     <style>
+        #vid {
+            position: fixed;
+            width: auto;
+            height: auto;
+            z-index: -1;
+        }
+
         #skill {
             margin-top: 50px;
-            width: 40%;
+            width: 28%;
             margin: auto;
             margin-top: 50px;
             box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
@@ -26,12 +33,11 @@
         #main {
             margin: auto;
             margin-top: 60px;
+            width: 80%;
             display: grid;
-            grid-template-columns: repeat(4, 25%);
+            grid-template-columns: repeat(4, 1fr);
             grid-template-rows: auto;
-            column-gap: 40px;
-            row-gap: 50px;
-            width: 70%;
+            gap: 50px;
         }
 
         #main>div>img {
@@ -44,6 +50,82 @@
             cursor: pointer;
             transform: scale(1.2);
             box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+        }
+
+        @media all and (min-width: 721px) and (max-width: 1024px) {
+            #vid {
+                position: fixed;
+                width: auto;
+                height: auto;
+                z-index: -1;
+            }
+
+            #skill {
+                width: 48%;
+            }
+
+            #skill>p {
+                font-size: 50px;
+            }
+
+            #main {
+                margin-top: 40px;
+                grid-template-columns: repeat(4, 20%);
+            }
+        }
+
+        @media all and (min-width: 480px) and (max-width: 720px) {
+            #vid {
+                position: fixed;
+                width: auto;
+                height: auto;
+                z-index: -1;
+            }
+
+            #skill {
+                width: 65%;
+            }
+
+            #skill>p {
+                font-size: 45px;
+            }
+
+            #main {
+                text-align: center;
+                margin-top: 40px;
+                grid-template-columns: repeat(2, 45%);
+                gap: 25px;
+            }
+        }
+
+        @media all and (min-width: 320px) and (max-width: 479px) {
+            #vid {
+                position: fixed;
+                width: auto;
+                height: auto;
+                z-index: -1;
+            }
+
+            #skill {
+                width: 80%;
+                margin-top: 150px;
+            }
+
+            #skill>p {
+                font-size: 35px;
+            }
+
+            #main {
+                text-align: center;
+                margin-top: 40px;
+                grid-template-columns: repeat(2, 45%);
+                gap: 25px;
+            }
+
+            #main>div>img {
+                width: 90px;
+                height: 90px;
+            }
         }
     </style>
 </head>

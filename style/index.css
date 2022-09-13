@@ -11,9 +11,10 @@
 } */
 
 #vid {
-  position: absolute;
+  position: fixed;
   margin-top: -100px;
-  width: 100%;
+  width: auto;
+  height: auto;
   height: auto;
   z-index: -1;
 }
@@ -69,6 +70,7 @@
   justify-content: space-evenly;
   column-gap: 60px;
   height: 500px;
+  margin-top: 25px;
   color: white;
   font-family: lato, sans-serif;
 }
@@ -76,7 +78,7 @@
 #content > div:nth-child(1) {
   padding: 15px;
   width: 50%;
-  margin-left: 80px;
+  margin-left: 20px;
   background-color: #5cdb933b;
   box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
@@ -119,8 +121,12 @@
   margin-top: 15px;
   word-spacing: 3px;
   line-height: 26px;
-  width: 85%;
+  width: 90%;
   font-family: lato, sans-serif;
+}
+
+#content > div:nth-child(2) {
+  margin-right: 10px;
 }
 
 #content > div:nth-child(2) > img {
@@ -130,9 +136,88 @@
   border-radius: 100%;
 }
 
+@media all and (min-width: 721px) and (max-width: 1024px) {
+  #vid {
+    position: fixed;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+
+  #navbar11 {
+    width: 100%;
+  }
+
+  #navbar > div {
+    font-size: 20px;
+  }
+
+  #content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+    margin-top: 65px;
+  }
+
+  #content > div:nth-child(1) {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  #content > div:nth-child(1) > p:nth-child(2) {
+    margin-top: 15px;
+    font-size: 35px;
+    word-spacing: 4px;
+  }
+
+  #content > div:nth-child(1) > p:nth-child(3) {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+
+  #location {
+    margin-top: 10px;
+  }
+
+  #location > img {
+    margin-right: 5px;
+    width: 30px;
+    height: 25px;
+  }
+
+  #location > p {
+    font-size: 16px;
+  }
+
+  #content > div:nth-child(1) > p:nth-child(5) {
+    font-size: 16px;
+    margin-top: 10px;
+    word-spacing: 3px;
+    line-height: 18px;
+    width: 100%;
+  }
+
+  #content > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right: 20px;
+    width: 90%;
+  }
+
+  #content > div:nth-child(2) > img {
+    margin-top: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+  }
+}
+
 @media all and (min-width: 480px) and (max-width: 720px) {
   #vid {
-    position: absolute;
+    position: fixed;
     width: auto;
     height: auto;
     z-index: -1;
@@ -210,7 +295,7 @@
 
 @media all and (min-width: 320px) and (max-width: 479px) {
   #vid {
-    position: absolute;
+    position: fixed;
     width: auto;
     height: auto;
     z-index: -1;
@@ -225,7 +310,7 @@
   }
 
   #navbar > div {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   #content {
@@ -288,3 +373,12 @@
     border-radius: 100%;
   }
 }
+
+/* @media all and (min-width: 721px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 480px) and (max-width: 720px) {
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+} */
