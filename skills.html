@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skills</title>
     <link rel="stylesheet" href="./style/index.css">
+
     <style>
         #vid {
             position: fixed;
@@ -40,16 +41,53 @@
             gap: 50px;
         }
 
+        #main>div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
         #main>div>img {
+            display: block;
             width: 120px;
             height: 120px;
             border-radius: 10px;
+        }
+
+        #main>div>p {
+            text-align: center;
+            font-size: 25px;
+            color: white;
+            margin-top: 10px;
         }
 
         #main>div>img:hover {
             cursor: pointer;
             transform: scale(1.2);
             box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+        }
+
+
+        #skill3>p {
+            font-family: lato, sans-serif;
+            text-align: center;
+            width: 35%;
+            color: white;
+            margin: auto;
+            font-size: 50px;
+            margin-top: 50px;
+            box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+        }
+
+        #githubcont {
+            text-align: center;
+            margin-top: 35px;
+            margin-bottom: 25px;
+        }
+
+        #githubcont>img {
+            border-radius: 10px;
         }
 
         @media all and (min-width: 721px) and (max-width: 1024px) {
@@ -71,6 +109,17 @@
             #main {
                 margin-top: 40px;
                 grid-template-columns: repeat(4, 20%);
+            }
+
+            #skill3>p {
+                width: 65%;
+                font-size: 50px;
+                margin-top: 50px;
+            }
+
+            #githubcont>img {
+                border-radius: 10px;
+                width: 95%;
             }
         }
 
@@ -96,6 +145,21 @@
                 grid-template-columns: repeat(2, 45%);
                 gap: 25px;
             }
+
+            #skill3 {
+                margin-top: 60px;
+            }
+
+            #skill3>p {
+                width: 75%;
+                font-size: 40px;
+                margin-top: 50px;
+            }
+
+            #githubcont>img {
+                border-radius: 10px;
+                width: 98%;
+            }
         }
 
         @media all and (min-width: 320px) and (max-width: 479px) {
@@ -120,12 +184,29 @@
                 margin-top: 40px;
                 grid-template-columns: repeat(2, 45%);
                 gap: 25px;
+                margin-bottom: -120px;
             }
 
             #main>div>img {
                 width: 90px;
                 height: 90px;
             }
+
+            #skill3 {
+                margin-top: 150px;
+            }
+
+            #skill3>p {
+                width: 70%;
+                font-size: 35px;
+                margin-top: 50px;
+            }
+
+            #githubcont>img {
+                border-radius: 10px;
+                width: 98%;
+            }
+
         }
     </style>
 </head>
@@ -141,34 +222,78 @@
     <div id="main">
         <div>
             <img src="./images/java_logo.jpg" alt="java logo not found">
+            <p>Java</p>
         </div>
         <div>
             <img src="./images/spring-boot.png" alt="spring-boot logo not found">
+            <p>Spring Boot</p>
         </div>
         <div>
             <img src="./images/Hibernate.jpg" alt="Hibernate logo not found">
+            <p>Hibernate</p>
         </div>
         <div>
             <img src="./images/sql-2.jpg" alt="sql logo not found">
+            <p>SQL</p>
         </div>
         <div>
             <img src="./images/javascript-thumb.png" alt="javascript logo not found">
+            <p>JavaScript</p>
         </div>
         <div>
             <img src="./images/html.png" alt="html logo not found">
+            <p>HTML</p>
         </div>
         <div>
             <img src="./images/css.png" alt="css logo not found">
+            <p>CSS</p>
         </div>
         <div>
             <img src="./images/GitHub-Logo.png" alt="github logo not found">
+            <p>GitHub</p>
         </div>
     </div>
+
+    <div id="skill">
+        <p>Soft Skills</p>
+    </div>
+    <div id="main">
+        <div>
+            <img src="./images/Team_Work.jpg" alt="Team_Work img not found">
+            <p>Team Work</p>
+        </div>
+        <div>
+            <img src="./images/Best-Task-Management-Software-Platforms.webp" alt="Task-Management img not found">
+            <p>Task Management</p>
+        </div>
+        <div>
+            <img src="./images/project_management.jpg" alt="project_management img not found">
+            <p>Project Management</p>
+        </div>
+        <div>
+            <img src="./images/empathy.webp" alt="empathy img not found">
+            <p>Empathy</p>
+        </div>
+    </div>
+
+    <div id="skill3">
+        <p>GitHub Contribution</p>
+    </div>
+
+    <div id="githubcont">
+        <img src="./images/GitHub-contri-img.PNG" alt="git Contribution img not found">
+    </div>
+
+
 </body>
 
 </html>
 
+
+
 <script type="module">
+
     import navbar from "../component/navbar.js";
     document.getElementById("navbar").innerHTML = navbar();
+
 </script>

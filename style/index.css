@@ -3,13 +3,6 @@
   margin: 0px;
 }
 
-/* body {
-  background-image: url(/images/84768.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  height: 98vh;
-} */
-
 #vid {
   position: fixed;
   margin-top: -100px;
@@ -79,12 +72,14 @@
   padding: 15px;
   width: 50%;
   margin-left: 20px;
+  border-radius: 15px;
   background-color: #5cdb933b;
   box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 
 #content > div:nth-child(2) {
-  background-color: rgba(255, 255, 255, 0.089);
+  border-radius: 15px;
+  background-color: #5cdb933b;
   box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 
