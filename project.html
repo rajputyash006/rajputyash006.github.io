@@ -10,10 +10,12 @@
     <style>
         #pro {
             display: flex;
-            height: 550px;
+            height: 500px;
             justify-content: center;
             align-items: center;
-            gap: 150px;
+            gap: 0px 100px;
+            margin-top: 50px;
+            font-family: lato, sans-serif;
         }
 
         #pro>div {
@@ -21,7 +23,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 50px;
+            gap: 20px 50px;
         }
 
         #div11>img {
@@ -51,16 +53,29 @@
         }
 
         #div12>button:hover {
-            background-color: white;
-
+            transform: scale(1.1);
             box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
         }
 
         #div12>button>a {
             text-decoration: none;
             font-size: 19px;
-            color: black;
+            color: white;
         }
+
+        #prjname {
+            text-align: center;
+            color: white;
+            font-size: 28px;
+        }
+
+        #prjlan {
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            margin-top: -10px;
+        }
+
 
         @media all and (min-width: 721px) and (max-width: 1024px) {
             #pro {
@@ -137,6 +152,14 @@
             <div id="div11">
                 <img src="./images/prj1.PNG" alt="prj image not found">
             </div>
+            <div id="prjname">
+                <p>Ideakart Clone</p>
+            </div>
+            <div id="prjlan">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+            </div>
             <div id="div12">
                 <button><a href="https://github.com/aakarshpatel84/Web-19-U2-Project">Source Code</a></button>
                 <button> <a href="https://aesthetic-brigadeiros-598272.netlify.app/">Watch Live</a></button>
@@ -146,6 +169,14 @@
         <div id="div2">
             <div id="div11">
                 <img src="./images/prj2.PNG" alt="prj image not found">
+            </div>
+            <div id="prjname">
+                <p>TrackingTime Clone</p>
+            </div>
+            <div id="prjlan">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript ES-6</p>
             </div>
             <div id="div12">
                 <button><a href="https://github.com/rajputyash006/habitual-hope-140">Source Code</a></button>
