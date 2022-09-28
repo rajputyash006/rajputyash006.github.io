@@ -1,0 +1,176 @@
+#tag {
+  text-align: center;
+  color: white;
+  font-family: lato, sans-serif;
+  font-size: 45px;
+  margin: auto;
+  margin-top: 80px;
+  width: 28%;
+  border-radius: 10px;
+  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+}
+
+#contact {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 25px 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  width: 55%;
+  font-family: lato, sans-serif;
+}
+
+#contact > div {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(115, 115, 115, 0.75);
+}
+
+#contact > div > div > img {
+  width: 40px;
+  height: 40px;
+}
+
+#contact > div:last-child > div > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#contact > div > div > p {
+  margin-left: 15px;
+}
+
+#contact > div > div > a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#contact > div > div > p:hover {
+  transform: scale(1.1);
+  color: springgreen;
+}
+
+#contact > div > div:hover {
+  transform: scale(1.1);
+}
+
+#contact > div > div > a:hover {
+  color: springgreen;
+}
+
+@media all and (min-width: 721px) and (max-width: 1024px) {
+  #tag {
+    font-size: 35px;
+    width: 38%;
+  }
+
+  #contact {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    width: 51%;
+    margin-top: 60px;
+  }
+
+  #contact > div {
+    padding: 5px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  #contact > div > div > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #contact > div:last-child > div > img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 720px) {
+  #tag {
+    font-size: 35px;
+    width: 60%;
+  }
+
+  #contact {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    width: 65%;
+    margin-top: 60px;
+  }
+
+  #contact > div {
+    padding: 2px;
+    border-radius: 8px;
+  }
+
+  #contact > div > div > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #contact > div:last-child > div > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #contact > div > div > p {
+    margin-left: 10px;
+  }
+
+  #contact > div > div > a {
+    margin-left: 10px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  #tag {
+    font-size: 30px;
+    margin-top: 80px;
+    width: 55%;
+    border-radius: 5px;
+  }
+
+  #contact {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    width: 95%;
+    margin-top: 40px;
+  }
+
+  #contact > div {
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  #contact > div > div > img {
+    width: 25px;
+    height: 25px;
+  }
+
+  #contact > div:last-child > div > img {
+    width: 25px;
+    height: 25px;
+  }
+
+  #contact > div > div > p {
+    margin-left: 5px;
+  }
+
+  #contact > div > div > a {
+    margin-left: 5px;
+  }
+}
