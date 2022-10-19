@@ -1,0 +1,364 @@
+#skill {
+  width: 25%;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 10px;
+  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+}
+
+#skill > p {
+  color: white;
+  font-size: 45px;
+  font-family: lato, sans-serif;
+  text-align: center;
+}
+
+#main {
+  margin: auto;
+  margin-top: 100px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 45px;
+}
+
+#main > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main > div > img {
+  display: block;
+  width: 100px;
+  height: 110px;
+  border-radius: 10px;
+}
+
+#main > div:nth-child(2) > img {
+  display: block;
+  width: 80px;
+  height: 90px;
+}
+
+#main > div:nth-child(3) > img {
+  display: block;
+  width: 80px;
+  height: 90px;
+}
+
+#main > div:nth-child(4) > img {
+  display: block;
+  width: 80px;
+  height: 90px;
+}
+
+#main > div:nth-child(5) > img {
+  display: block;
+  width: 80px;
+  height: 90px;
+}
+
+#main > div > p {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+}
+
+#main > div > img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(115, 115, 115, 0.75);
+}
+
+#skill2 {
+  width: 25%;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 10px;
+  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+}
+
+#skill2 > p {
+  color: white;
+  font-size: 45px;
+  font-family: lato, sans-serif;
+  text-align: center;
+}
+
+#main2 {
+  margin: auto;
+  margin-top: 100px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 45px;
+}
+
+#main2 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main2 > div > img {
+  display: block;
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+}
+
+#main2 > div:nth-child(4) > img {
+  border-radius: 100%;
+}
+
+#main2 > div > p {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+}
+
+#main2 > div > img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(115, 115, 115, 0.75);
+}
+
+@media all and (min-width: 721px) and (max-width: 1024px) {
+  #skill {
+    width: 38%;
+    margin-top: 0px;
+  }
+
+  #skill > p {
+    font-size: 35px;
+  }
+
+  #main {
+    margin-top: 60px;
+    gap: 40px 35px;
+  }
+
+  #main > div > img {
+    width: 90px;
+    height: 90px;
+  }
+
+  #main > div:nth-child(2) > img {
+    display: block;
+    width: 65px;
+    height: 75px;
+  }
+
+  #main > div:nth-child(3) > img {
+    display: block;
+    width: 65px;
+    height: 75px;
+  }
+
+  #main > div:nth-child(4) > img {
+    display: block;
+    width: 65px;
+    height: 75px;
+  }
+
+  #main > div:nth-child(5) > img {
+    display: block;
+    width: 65px;
+    height: 75px;
+  }
+
+  #main > div > p {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+
+  #skill2 {
+    width: 38%;
+    margin-top: 60px;
+  }
+
+  #skill2 > p {
+    font-size: 35px;
+  }
+
+  #main2 {
+    margin-top: 60px;
+    gap: 40px 35px;
+  }
+
+  #main2 > div > img {
+    width: 90px;
+    height: 90px;
+  }
+
+  #main2 > div > p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 720px) {
+  #skill {
+    width: 60%;
+    margin-top: 140px;
+  }
+
+  #skill > p {
+    font-size: 40px;
+  }
+
+  #main {
+    margin-top: 45px;
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  #main > div > img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #main > div:nth-child(2) > img {
+    display: block;
+    width: 55px;
+    height: 65px;
+  }
+
+  #main > div:nth-child(3) > img {
+    display: block;
+    width: 55px;
+    height: 65px;
+  }
+
+  #main > div:nth-child(4) > img {
+    display: block;
+    width: 55px;
+    height: 65px;
+  }
+
+  #main > div:nth-child(5) > img {
+    display: block;
+    width: 55px;
+    height: 65px;
+  }
+
+  #main > div > p {
+    font-size: 18px;
+    margin-top: 8px;
+  }
+
+  #skill2 {
+    width: 60%;
+    margin-top: 50px;
+  }
+
+  #skill2 > p {
+    font-size: 40px;
+  }
+
+  #main2 {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
+    gap: 25px 10px;
+  }
+
+  #main2 > div > img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #main2 > div > p {
+    font-size: 18px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  #skill {
+    width: 70%;
+    margin-top: 125px;
+    border-radius: 5px;
+  }
+
+  #skill > p {
+    font-size: 30px;
+  }
+
+  #main {
+    margin-top: 35px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  #main > div > img {
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+  }
+
+  #main > div:nth-child(2) > img {
+    display: block;
+    width: 45px;
+    height: 55px;
+  }
+
+  #main > div:nth-child(3) > img {
+    display: block;
+    width: 45px;
+    height: 55px;
+  }
+
+  #main > div:nth-child(4) > img {
+    display: block;
+    width: 45px;
+    height: 55px;
+  }
+
+  #main > div:nth-child(5) > img {
+    display: block;
+    width: 45px;
+    height: 55px;
+  }
+
+  #main > div > p {
+    font-size: 18px;
+    margin-top: 8px;
+  }
+
+  #skill2 {
+    width: 45%;
+    margin-top: 25px;
+    border-radius: 5px;
+  }
+
+  #skill2 > p {
+    font-size: 30px;
+  }
+
+  #main2 {
+    margin-top: 40px;
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: max-content;
+    gap: 45px;
+  }
+
+  #main2 > div > img {
+    width: 75px;
+    height: 75px;
+  }
+
+  #main2 > div > p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
