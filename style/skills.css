@@ -133,7 +133,7 @@
 @media all and (min-width: 721px) and (max-width: 1024px) {
   #skill {
     width: 38%;
-    margin-top: 0px;
+    margin-top: 25px;
   }
 
   #skill > p {
