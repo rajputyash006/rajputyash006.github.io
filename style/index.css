@@ -42,14 +42,14 @@ body {
 
 #navbar11 > div > a {
   text-decoration: none;
-  color: springgreen;
+  color: white;
   font-weight: bold;
 }
 
 #navbar11 > div {
-  padding: 3px 8px;
-  border-radius: 5px;
-  box-shadow: 0 0 20px rgba(115, 115, 115, 0.75);
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: #039be5;
 }
 
 #navbar11 > div:hover {
@@ -72,7 +72,7 @@ body {
   justify-content: space-around;
   column-gap: 60px;
   height: 500px;
-  margin-top: 80px;
+  margin-top: 100px;
   color: white;
   font-family: lato, sans-serif;
 }
@@ -81,19 +81,17 @@ body {
   margin-right: 0px;
   width: 300px;
   height: 300px;
+  margin-left: 150px;
   border-radius: 100%;
-  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 
 #content > div:nth-child(2) {
   box-sizing: border-box;
   padding: 15px;
   width: 50%;
-  margin-left: 20px;
+  margin-left: -50px;
   border-radius: 15px;
-  /* background-color: #2e390f81; */
   background-color: transparent;
-  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 
 #content > div:nth-child(2) > p:nth-child(2) {
@@ -135,23 +133,24 @@ body {
 
 @media all and (min-width: 721px) and (max-width: 1024px) {
   #navbar11 {
-    width: 70%;
+    width: 85%;
   }
 
   #content {
     height: 500px;
-    margin-top: 100px;
     padding: 15px;
   }
 
   #content > div:nth-child(1) > img {
     width: 250px;
     height: 250px;
+    margin-left: 50px;
   }
 
   #content > div:nth-child(2) {
     width: 100%;
     border-radius: 12px;
+    margin-left: 0px;
   }
 
   #content > div:nth-child(2) > p:nth-child(2) {
@@ -212,12 +211,14 @@ body {
   #content > div:nth-child(1) > img {
     width: 250px;
     height: 250px;
+    margin-left: 0px;
   }
 
   #content > div:nth-child(2) {
     padding: 10px;
     width: 93%;
     border-radius: 10px;
+    margin-left: 50px;
   }
 
   #content > div:nth-child(2) > p:nth-child(2) {
@@ -261,12 +262,17 @@ body {
     width: 100%;
   }
 
+  #navbar11 > div {
+    padding: 4px 4px;
+    border-radius: 5px;
+  }
+
   #navbar > div {
     font-size: 15px;
   }
 
   #navbar11 > div > a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   #content {
@@ -277,6 +283,7 @@ body {
 
   #content > div:nth-child(1) {
     text-align: center;
+    margin-left: -150px;
   }
 
   #content > div:nth-child(1) > img {
@@ -288,6 +295,7 @@ body {
     padding: 15px;
     width: 90%;
     border-radius: 10px;
+    margin-left: 25px;
   }
 
   #content > div:nth-child(2) > div:nth-child(1) > h1 {
