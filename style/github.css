@@ -48,15 +48,16 @@ rect.ContributionCalendar-day[data-level="4"] {
 
 .calendar {
   font-family: Helvetica, arial;
-  border: 1px solid #dddddd;
+  border: 1px solid white;
   border-radius: 3px;
   min-height: 243px;
   text-align: center;
   margin: 0 auto;
   color: white;
-  width: 90%;
+  width: 75%;
   margin-top: 80px;
   font-family: lato, sans-serif;
+  padding: 5px;
 }
 
 .calendar-graph text.wday,
@@ -220,6 +221,7 @@ text.ContributionCalendar-label {
 @media all and (min-width: 721px) and (max-width: 1024px) {
   #git {
     width: 40%;
+    margin-top: 60px;
   }
 
   #git > p {
@@ -236,12 +238,13 @@ text.ContributionCalendar-label {
 
 @media all and (min-width: 480px) and (max-width: 720px) {
   #git {
-    width: 58%;
+    width: 65%;
+    margin-top: 50px;
     border-radius: 10px;
   }
 
   #git > p {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .calendar {
@@ -268,11 +271,11 @@ text.ContributionCalendar-label {
 
   .calendar {
     min-height: 0px;
-    width: 95%;
+    width: 90%;
     margin-top: 50px;
   }
 
   .contrib-number {
-    font-size: 16px;
+    font-size: 14px;
   }
 }

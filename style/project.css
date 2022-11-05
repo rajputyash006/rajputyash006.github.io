@@ -114,11 +114,11 @@
 @media all and (min-width: 480px) and (max-width: 720px) {
   #skill3 {
     width: 60%;
-    margin-top: 60px;
+    margin-top: 50px;
   }
 
   #skill3 > p {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   #pro {
@@ -170,7 +170,7 @@
 @media all and (min-width: 320px) and (max-width: 479px) {
   #skill3 {
     width: 45%;
-    margin-top: 60px;
+    margin-top: 40px;
     border-radius: 5px;
   }
 
@@ -202,6 +202,7 @@
   #div12 > button {
     height: 25px;
     padding: 5px 15px;
+    padding-bottom: 22px;
     border-radius: 5px;
   }
 
