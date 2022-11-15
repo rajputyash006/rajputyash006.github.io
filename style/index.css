@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background: url(../images/blackbgr.jpg);
+  background-color: rgb(24, 21, 21);
   background-size: contain;
 }
 
@@ -155,11 +155,11 @@ body {
 
   #content > div:nth-child(2) > p:nth-child(2) {
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 38px;
   }
 
   #content > div:nth-child(2) > p:nth-child(3) {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   #content > div:nth-child(2) > p:nth-child(5) {

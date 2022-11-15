@@ -26,7 +26,8 @@
             <div><a href="#home">Home</a></div>
             <div><a href="#skill">Skills</a></div>
             <div><a href="#skill3">Project</a></div>
-            <div><a href="./images/Yash-Rajput-Resume.pdf">Resume</a></div>
+            <div><a id="resumeId" href="./images/Yash-Rajput-Resume.pdf">Resume</a>
+            </div>
             <div><a href="#tag">Contact</a></div>
         </div>
     </div>
@@ -191,8 +192,7 @@
     </div>
 
     <div class="stats">
-        <img align="center"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=rajputyash006&theme=github-dark&background=00000000&border=D3DDD5"
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajputyash006&theme=github-dark&background=00000000&border=D3DDD5"
             alt="rajputyash006" />
     </div>
 
@@ -277,4 +277,13 @@
     // GitHubCalendar(".calendar", "rajputyash006");
 
     GitHubCalendar(".calendar", "rajputyash006", { responsive: true });
+</script>
+
+<script>
+    document.getElementById("resumeId").addEventListener("click", () => {
+
+        window.open("https://drive.google.com/file/d/17Du8vojagimIfVyOm0zMdf19GvVd9S1f/view?usp=sharing", '_blank')
+
+    });
+
 </script>
