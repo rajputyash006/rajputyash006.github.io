@@ -231,6 +231,7 @@ text.ContributionCalendar-label {
   }
 
   .calendar {
+    margin-top: 50px;
     min-height: 200px;
     width: 90%;
   }
@@ -261,7 +262,7 @@ text.ContributionCalendar-label {
 @media all and (min-width: 320px) and (max-width: 479px) {
   #git {
     width: 75%;
-    margin-top: 40px;
+    margin-top: 25px;
     border-radius: 5px;
   }
 

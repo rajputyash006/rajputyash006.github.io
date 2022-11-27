@@ -13,78 +13,94 @@
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-#pro {
+#project {
   display: flex;
-  margin-top: 80px;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  font-family: lato, sans-serif;
+  border: 1px solid white;
+  padding: 25px;
+  width: 75%;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 15px;
 }
 
-#pro > div {
+#projectImage {
+  text-align: center;
+}
+
+#projectImage > img {
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
+#projectImage > img:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0 0 20px rgba(115, 115, 115, 0.75);
+}
+
+#projectDetails {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 10px 50px;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 400px;
+  color: white;
+  text-align: center;
 }
 
-#div11 > img {
-  width: 450px;
-  height: 250px;
-  border-radius: 10px;
+#projectDes {
+  width: 70%;
+  margin: auto;
 }
 
-#div11 > img:hover {
-  cursor: pointer;
-  transform: scale(1.02);
-  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+#tecstack {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-#div12 {
+#projectTech {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+#projectTech > img {
+  height: 40px;
+  width: 40px;
+}
+
+#projectLive {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 25px;
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
 }
 
-#div12 > button {
-  height: 32px;
-  padding: 5px 15px;
+#projectLive > button {
+  height: 28px;
+  padding: 2px 12px;
   border-radius: 5px;
   border: none;
   background-color: #fe461e;
 }
 
-#div12 > button:hover {
+#projectLive > button:hover {
   transform: scale(1.1);
-  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+  box-shadow: 0 0 20px rgba(115, 115, 115, 0.75);
 }
 
-#div12 > button > a {
+#projectLive > button > a {
   text-decoration: none;
   font-size: 19px;
   color: white;
-}
-
-#prjname {
-  text-align: center;
-  color: white;
-  font-size: 28px;
-  margin-top: 10px;
-}
-
-#prjdec {
-  text-align: center;
-  color: white;
-  font-size: 16px;
-  width: 55%;
-}
-
-#prjlan {
-  text-align: center;
-  color: white;
-  font-size: 18px;
 }
 
 @media all and (min-width: 721px) and (max-width: 1024px) {
@@ -97,17 +113,46 @@
     font-size: 35px;
   }
 
-  #pro {
-    gap: 25px;
+  #project {
+    padding: 20px;
+    width: 90%;
+    height: 280px;
+    margin-top: 30px;
+    gap: 5px;
   }
 
-  #pro > div {
-    gap: 25px;
+  #projectImage > img {
+    width: 380px;
+    height: 225px;
+    border-radius: 15px;
   }
 
-  #div11 > img {
-    width: 320px;
-    height: 220px;
+  #tecstack {
+    margin-bottom: 10px;
+  }
+
+  #projectTech {
+    gap: 10px 20px;
+    margin: auto;
+  }
+
+  #projectTech > img {
+    height: 32px;
+    width: 32px;
+  }
+
+  #projectLive {
+    gap: 5px;
+  }
+
+  #projectLive > button {
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  #projectLive > button > a {
+    font-size: 17px;
   }
 }
 
@@ -121,49 +166,62 @@
     font-size: 40px;
   }
 
-  #pro {
+  #project {
     display: grid;
-    margin-top: 60px;
-    gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    border: none;
+    margin-top: 10px;
+    width: 80%;
   }
 
-  #pro > div {
-    gap: 25px;
+  #projectImage > img {
+    width: 420px;
+    height: 220px;
+    border-radius: 10px;
   }
 
-  #div11 > img {
-    width: 250px;
-    height: 120px;
+  #projectDetails {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    row-gap: 5px;
+    width: auto;
+    height: 225px;
   }
 
-  #div12 {
-    gap: 25px;
+  #projectDes {
+    width: 65%;
   }
 
-  #div12 > button {
-    height: 28px;
+  #tecstack {
+    margin-bottom: 5px;
+  }
+
+  #projectTech {
+    margin: auto;
+    gap: 10px 20px;
+  }
+
+  #projectTech > img {
+    height: 30px;
+    width: 30px;
+  }
+
+  #projectLive {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #projectLive > button {
+    height: 30px;
     padding: 5px 10px;
     border-radius: 5px;
   }
 
-  #div12 > button > a {
+  #projectLive > button > a {
     font-size: 16px;
-  }
-
-  #prjname {
-    font-size: 25px;
-    margin-top: -15px;
-  }
-
-  #prjdec {
-    font-size: 15px;
-    width: 50%;
-    margin-top: -15px;
-  }
-
-  #prjlan {
-    font-size: 16px;
-    margin-top: -15px;
   }
 }
 
@@ -178,52 +236,62 @@
     font-size: 30px;
   }
 
-  #pro {
+  #project {
     display: grid;
-    margin-top: 40px;
-    grid-template-columns: repeat(1, fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    border: none;
+    margin-top: 10px;
+    width: 80%;
   }
 
-  #pro > div {
-    row-gap: 10px;
+  #projectImage > img {
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
   }
 
-  #div11 > img {
-    width: 240px;
-    height: 120px;
-    border-radius: 5px;
-  }
-
-  #div12 {
+  #projectDetails {
     display: grid;
-    gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    row-gap: 0px;
+    width: auto;
+    height: 250px;
   }
 
-  #div12 > button {
-    height: 25px;
-    padding: 5px 15px;
-    padding-bottom: 22px;
-    border-radius: 5px;
+  #projectDes {
+    width: 75%;
   }
 
-  #div12 > button > a {
-    font-size: 16px;
-  }
-
-  #div2 {
-    margin-top: 40px;
-  }
-
-  #prjname {
-    font-size: 24px;
+  #tecstack {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 
-  #prjdec {
-    font-size: 15px;
+  #projectTech {
+    margin: auto;
+    gap: 10px 20px;
   }
 
-  #prjlan {
-    font-size: 16px;
+  #projectTech > img {
+    height: 25px;
+    width: 25px;
+  }
+
+  #projectLive {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #projectLive > button {
+    height: 25px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  #projectLive > button > a {
+    font-size: 14px;
   }
 }
