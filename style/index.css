@@ -19,7 +19,7 @@ body {
   background-size: contain;
 }
 
-#navbar {
+#nav-menu {
   display: flex;
   box-sizing: border-box;
   justify-content: center;
@@ -57,7 +57,7 @@ body {
   box-shadow: 0 0 20px rgba(255, 254, 254, 0.75);
 }
 
-#navbar > div {
+#nav-menu > div {
   color: white;
   font-size: 20px;
 }
@@ -184,7 +184,7 @@ body {
 }
 
 @media all and (min-width: 480px) and (max-width: 720px) {
-  #navbar {
+  #nav-menu {
     height: 60px;
   }
 
@@ -192,7 +192,7 @@ body {
     width: 98%;
   }
 
-  #navbar > div {
+  #nav-menu > div {
     font-size: 18px;
   }
 
@@ -253,7 +253,7 @@ body {
 }
 
 @media all and (min-width: 320px) and (max-width: 479px) {
-  #navbar {
+  #nav-menu {
     height: 50px;
   }
 
@@ -268,7 +268,7 @@ body {
     border-radius: 5px;
   }
 
-  #navbar > div {
+  #nav-menu > div {
     font-size: 15px;
   }
 

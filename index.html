@@ -17,18 +17,19 @@
 </head>
 
 <body>
-    <h1 id="home"></h1>
+    <h1 class="nav-link home" id="home"></h1>
     <video autoplay loop muted id="vid">
         <source src="./images/Arka Plan HD.mkv">
     </video>
-    <div id="navbar">
+    <div id="nav-menu">
         <div id="navbar11">
-            <div><a href="#home">Home</a></div>
-            <div><a href="#skill">Skills</a></div>
-            <div><a href="#skill3">Project</a></div>
-            <div><a id="resumeId" href="./images/Yash-Rajput-Resume.pdf">Resume</a>
+            <div><a class="nav-link about" href="#home">Home</a></div>
+            <div><a class="nav-link skills" href="#skill">Skills</a></div>
+            <div><a class="nav-link contact" href="#skill3">Project</a></div>
+            <div id="resume-button-1"><a class="nav-link resume" id="resumeId"
+                    href="./images/Yash-Rajput-Resume.pdf">Resume</a>
             </div>
-            <div><a href="#tag">Contact</a></div>
+            <div><a class="nav-link projects" href="#tag">Contact</a></div>
         </div>
     </div>
     <div id="content">
@@ -39,13 +40,14 @@
             <div>
                 <h1>Hey......👋</h1>
             </div>
-            <p>I am Yash Rajput</p>
+            <p id="user-detail-name">I am Yash Rajput</p>
             <p>I am Java Backend Developer</p>
             <div id="location">
                 <img src="./images/map-location.png" alt="location logo not found">
                 <p>Surat, Gujarat</p>
             </div>
-            <p>" I am a Passionate Java Backend Developer with a knowledge of java, Spring Boot, Hibernate, RESTFUL
+            <p id="user-detail-intro">" I am a Passionate Java Backend Developer with a knowledge of java, Spring Boot,
+                Hibernate, RESTFUL
                 web
                 Services, SQL,
                 HTML3, and JavaScript.I have done 1000+ hours of coding in Masai School. I am able to write neat and
@@ -62,13 +64,13 @@
 
     <!-- skill section  -->
 
-    <div id="skill">
+    <div id="skills">
         <p>Technical Skills</p>
     </div>
     <div id="main">
         <div>
-            <img src="./images/java_logo.png" alt="java logo not found">
-            <p>Java</p>
+            <img class="skills-card-img" src="./images/java_logo.png" alt="java logo not found">
+            <p class="skills-card-name">Java</p>
         </div>
         <div>
             <img src="./images/spring-boot.png" alt="spring-boot logo not found">
@@ -233,21 +235,23 @@
 
 
         <div id="projectDetails">
-            <h1 id=projectName">TrackingTime Clone</h1>
-            <div id="projectDes">
+            <h1 class="project-title" id=projectName">TrackingTime Clone</h1>
+            <div class="project-description" id="projectDes">
                 <p>TrackingTime is an intuitive Time Tracking Software. Simplify Timesheets. Get accurate clients,
                     project and employee.</p>
             </div>
-            <p id="tecstack">Tech Stack :</p>
+            <p class="project-tech-stack" id="tecstack">Tech Stack :</p>
             <div id="projectTech">
                 <img src="./images/html.png" alt="java logo not found">
                 <img src="./images/css.png" alt="spring boot logo not found">
                 <img src="./images/js2.png" alt="Hibernate logo not found">
             </div>
             <div id="projectLive">
-                <button><a target="_blank" href="https://github.com/rajputyash006/habitual-hope-140">Source
+                <button><a class="project-github-link" target="_blank"
+                        href="https://github.com/rajputyash006/habitual-hope-140">Source
                         Code</a></button>
-                <button> <a target="_blank" href="https://creative-torrone-f39af8.netlify.app/index.html">Watch
+                <button> <a class="project-deployed-link" target="_blank"
+                        href="https://creative-torrone-f39af8.netlify.app/index.html">Watch
                         Live</a></button>
             </div>
         </div>
@@ -264,11 +268,11 @@
         Loading the data just for you.
     </div>
 
-    <div id="stats">
+    <div id="github-stats-card">
         <p>My Stats</p>
     </div>
 
-    <div class="stats">
+    <div class="stats" id="github-streak-stats">
         <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajputyash006&theme=github-dark&background=00000000&border=D3DDD5"
             alt="rajputyash006" />
     </div>

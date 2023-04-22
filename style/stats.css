@@ -1,11 +1,11 @@
-#stats {
+#github-stats-card {
   width: 25%;
   margin: auto;
   margin-top: 80px;
   border-radius: 10px;
 }
 
-#stats > p {
+#github-stats-card > p {
   color: white;
   font-size: 45px;
   font-family: lato, sans-serif;
@@ -25,11 +25,11 @@
 }
 
 @media all and (min-width: 721px) and (max-width: 1024px) {
-  #stats {
+  #github-stats-card {
     margin-top: 60px;
   }
 
-  #stats > p {
+  #github-stats-card > p {
     font-size: 35px;
   }
 
@@ -40,12 +40,12 @@
 }
 
 @media all and (min-width: 480px) and (max-width: 720px) {
-  #stats {
+  #github-stats-card {
     width: 58%;
     margin-top: 50px;
   }
 
-  #stats > p {
+  #github-stats-card > p {
     font-size: 30px;
   }
 
@@ -62,12 +62,12 @@
 }
 
 @media all and (min-width: 320px) and (max-width: 479px) {
-  #stats {
+  #github-stats-card {
     width: 75%;
     margin-top: 40px;
   }
 
-  #stats > p {
+  #github-stats-card > p {
     font-size: 30px;
   }
 
