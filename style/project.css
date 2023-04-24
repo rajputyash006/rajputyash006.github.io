@@ -13,7 +13,7 @@
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-#project {
+.project-card {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -53,12 +53,12 @@
   text-align: center;
 }
 
-#projectDes {
+.project-description {
   width: 70%;
   margin: auto;
 }
 
-#tecstack {
+.project-tech-stack {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -75,16 +75,16 @@
   width: 40px;
 }
 
-#projectLive {
+.project-github-link {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 90%;
+  width: 95%;
   margin: auto;
   margin-top: 15px;
 }
 
-#projectLive > button {
+.project-github-link > button {
   height: 28px;
   padding: 2px 12px;
   border-radius: 5px;
@@ -92,12 +92,12 @@
   background-color: #fe461e;
 }
 
-#projectLive > button:hover {
+.project-github-link > button:hover {
   transform: scale(1.1);
   box-shadow: 0 0 20px rgba(115, 115, 115, 0.75);
 }
 
-#projectLive > button > a {
+.project-github-link > button > a {
   text-decoration: none;
   font-size: 19px;
   color: white;
@@ -113,7 +113,7 @@
     font-size: 35px;
   }
 
-  #project {
+  .project-card {
     padding: 20px;
     width: 90%;
     height: 280px;
@@ -127,7 +127,7 @@
     border-radius: 15px;
   }
 
-  #tecstack {
+  .project-tech-stack {
     margin-bottom: 10px;
   }
 
@@ -141,17 +141,17 @@
     width: 32px;
   }
 
-  #projectLive {
+  .project-github-link {
     gap: 5px;
   }
 
-  #projectLive > button {
+  .project-github-link > button {
     height: 30px;
     padding: 5px 10px;
     border-radius: 5px;
   }
 
-  #projectLive > button > a {
+  .project-github-link > button > a {
     font-size: 17px;
   }
 }
@@ -166,7 +166,7 @@
     font-size: 40px;
   }
 
-  #project {
+  .project-card {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
@@ -190,11 +190,11 @@
     height: 225px;
   }
 
-  #projectDes {
+  .project-description {
     width: 65%;
   }
 
-  #tecstack {
+  .project-tech-stack {
     margin-bottom: 5px;
   }
 
@@ -208,19 +208,19 @@
     width: 30px;
   }
 
-  #projectLive {
+  .project-github-link {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
 
-  #projectLive > button {
+  .project-github-link > button {
     height: 30px;
     padding: 5px 10px;
     border-radius: 5px;
   }
 
-  #projectLive > button > a {
+  .project-github-link > button > a {
     font-size: 16px;
   }
 }
@@ -236,7 +236,7 @@
     font-size: 30px;
   }
 
-  #project {
+  .project-card {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
@@ -260,11 +260,11 @@
     height: 250px;
   }
 
-  #projectDes {
+  .project-description {
     width: 75%;
   }
 
-  #tecstack {
+  .project-tech-stack {
     margin-top: 0px;
     margin-bottom: 0px;
   }
@@ -279,19 +279,19 @@
     width: 25px;
   }
 
-  #projectLive {
+  .project-github-link {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
 
-  #projectLive > button {
+  .project-github-link > button {
     height: 25px;
     padding: 5px 10px;
     border-radius: 5px;
   }
 
-  #projectLive > button > a {
+  .project-github-link > button > a {
     font-size: 14px;
   }
 }
