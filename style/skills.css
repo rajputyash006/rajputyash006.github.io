@@ -1,11 +1,11 @@
-#skills {
+.skills-card {
   width: 25%;
   margin: auto;
   margin-top: 80px;
   border-radius: 10px;
 }
 
-#skills > p {
+.skills-card > p {
   color: white;
   font-size: 45px;
   font-family: lato, sans-serif;
@@ -131,12 +131,12 @@
 }
 
 @media all and (min-width: 721px) and (max-width: 1024px) {
-  #skills {
+  .skills-card {
     width: 38%;
     margin-top: 25px;
   }
 
-  #skills > p {
+  .skills-card > p {
     font-size: 35px;
   }
 
@@ -205,12 +205,12 @@
 }
 
 @media all and (min-width: 480px) and (max-width: 720px) {
-  #skills {
+  .skills-card {
     width: 60%;
     margin-top: 140px;
   }
 
-  #skills > p {
+  .skills-card > p {
     font-size: 40px;
   }
 
@@ -281,13 +281,13 @@
 }
 
 @media all and (min-width: 320px) and (max-width: 479px) {
-  #skills {
+  .skills-card {
     width: 70%;
     margin-top: 135px;
     border-radius: 5px;
   }
 
-  #skills > p {
+  .skills-card > p {
     font-size: 30px;
   }
 

@@ -10,7 +10,7 @@
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-#contact {
+#contact-div {
   /* border: 5px solid yellow; */
   display: grid;
   margin: auto;
@@ -25,7 +25,7 @@
   font-family: lato, sans-serif;
 }
 
-#contact > div {
+#contact-div > div {
   display: flex;
   width: 100%;
   justify-content: start;
@@ -35,37 +35,37 @@
   box-shadow: 0 0 20px rgba(115, 115, 115, 0.75);
 }
 
-#contact > div > div > img {
+#contact-div > div > div > img {
   width: 40px;
   height: 40px;
 }
 
-#contact > div:last-child > div > img {
+#contact-div > div:last-child > div > img {
   width: 40px;
   height: 40px;
   border-radius: 100%;
 }
 
-#contact > div > div > p {
+#contact-div > div > div > p {
   margin-left: 15px;
 }
 
-#contact > div > div > a {
+#contact-div > div > div > a {
   color: white;
   margin-left: 15px;
   text-decoration: none;
 }
 
-#contact > div > div > p:hover {
+#contact-div > div > div > p:hover {
   transform: scale(1.1);
   color: springgreen;
 }
 
-#contact > div > div:hover {
+#contact-div > div > div:hover {
   transform: scale(1.1);
 }
 
-#contact > div > div > a:hover {
+#contact-div > div > div > a:hover {
   color: springgreen;
 }
 
@@ -76,26 +76,26 @@
     margin-top: 60px;
   }
 
-  #contact {
+  #contact-div {
     grid-template-columns: repeat(1, 1fr);
     gap: 15px;
     width: 51%;
     margin-top: 60px;
   }
 
-  #contact > div {
+  #contact-div > div {
     padding: 5px;
     font-size: 16px;
     padding: 5px;
     border-radius: 10px;
   }
 
-  #contact > div > div > img {
+  #contact-div > div > div > img {
     width: 30px;
     height: 30px;
   }
 
-  #contact > div:last-child > div > img {
+  #contact-div > div:last-child > div > img {
     width: 30px;
     height: 30px;
   }
@@ -108,33 +108,33 @@
     margin-top: 50px;
   }
 
-  #contact {
+  #contact-div {
     grid-template-columns: repeat(1, 1fr);
     gap: 15px;
     width: 65%;
     margin-top: 60px;
   }
 
-  #contact > div {
+  #contact-div > div {
     padding: 2px;
     border-radius: 8px;
   }
 
-  #contact > div > div > img {
+  #contact-div > div > div > img {
     width: 30px;
     height: 30px;
   }
 
-  #contact > div:last-child > div > img {
+  #contact-div > div:last-child > div > img {
     width: 30px;
     height: 30px;
   }
 
-  #contact > div > div > p {
+  #contact-div > div > div > p {
     margin-left: 10px;
   }
 
-  #contact > div > div > a {
+  #contact-div > div > div > a {
     margin-left: 10px;
   }
 }
@@ -147,7 +147,7 @@
     border-radius: 5px;
   }
 
-  #contact {
+  #contact-div {
     grid-template-columns: repeat(1, 1fr);
     gap: 5px;
     width: 95%;
@@ -155,27 +155,27 @@
     margin-bottom: 35px;
   }
 
-  #contact > div {
+  #contact-div > div {
     padding: 2px;
     border-radius: 5px;
     font-size: 14px;
   }
 
-  #contact > div > div > img {
+  #contact-div > div > div > img {
     width: 25px;
     height: 25px;
   }
 
-  #contact > div:last-child > div > img {
+  #contact-div > div:last-child > div > img {
     width: 25px;
     height: 25px;
   }
 
-  #contact > div > div > p {
+  #contact-div > div > div > p {
     margin-left: 5px;
   }
 
-  #contact > div > div > a {
+  #contact-div > div > div > a {
     margin-left: 5px;
   }
 }
