@@ -1,4 +1,4 @@
-#git {
+.react-activity-calendar {
   width: 28%;
   margin: auto;
   margin-top: 80px;
@@ -6,7 +6,7 @@
   font-family: lato, sans-serif;
 }
 
-#git > p {
+.react-activity-calendar > p {
   color: white;
   font-size: 45px;
   font-family: lato, sans-serif;
@@ -219,12 +219,12 @@ text.ContributionCalendar-label {
 }
 
 @media all and (min-width: 721px) and (max-width: 1024px) {
-  #git {
+  .react-activity-calendar {
     width: 40%;
     margin-top: 60px;
   }
 
-  #git > p {
+  .react-activity-calendar > p {
     font-size: 35px;
     font-family: lato, sans-serif;
     text-align: center;
@@ -238,13 +238,13 @@ text.ContributionCalendar-label {
 }
 
 @media all and (min-width: 480px) and (max-width: 720px) {
-  #git {
+  .react-activity-calendar {
     width: 65%;
     margin-top: 50px;
     border-radius: 10px;
   }
 
-  #git > p {
+  .react-activity-calendar > p {
     font-size: 40px;
   }
 
@@ -260,13 +260,13 @@ text.ContributionCalendar-label {
 }
 
 @media all and (min-width: 320px) and (max-width: 479px) {
-  #git {
+  .react-activity-calendar {
     width: 75%;
     margin-top: 25px;
     border-radius: 5px;
   }
 
-  #git > p {
+  .react-activity-calendar > p {
     font-size: 30px;
   }
 
