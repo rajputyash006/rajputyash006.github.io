@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="./style/skills.css">
     <link rel="stylesheet" href="./style/github.css">
     <link rel="stylesheet" href="./style/stats.css">
-
-
 </head>
 
 <body>
@@ -388,12 +386,17 @@
 </html>
 
 
-<script src="./component/github.js"></script>
+<!-- Include the library. -->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
 
 <script>
-    // GitHubCalendar(".calendar", "rajputyash006");
+    GitHubCalendar(".calendar", "rajputyash006");
 
+    // or enable responsive functionality:
     GitHubCalendar(".calendar", "rajputyash006", { responsive: true });
+
 </script>
 
 <script>
