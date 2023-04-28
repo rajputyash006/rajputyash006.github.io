@@ -66,13 +66,23 @@ body {
   color: white;
 }
 
+#about-title {
+  color: white;
+  width: 60%;
+  margin: auto;
+  margin-top: 8%;
+  font-size: 45px;
+  text-align: center;
+  font-family: lato, sans-serif;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
 #content {
   display: flex;
   align-items: center;
   justify-content: space-around;
   column-gap: 60px;
   height: 500px;
-  margin-top: 100px;
   color: white;
   font-family: lato, sans-serif;
 }
@@ -136,6 +146,12 @@ body {
     width: 85%;
   }
 
+  #about-title {
+    margin-top: 12%;
+    font-size: 35px;
+    margin-bottom: -5%;
+  }
+
   #content {
     height: 500px;
     padding: 15px;
@@ -196,12 +212,17 @@ body {
     font-size: 18px;
   }
 
+  #about-title {
+    margin-top: 15%;
+    font-size: 40px;
+    margin-bottom: 7%;
+  }
+
   #content {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
     gap: 25px;
-    margin-top: 95px;
   }
 
   #content > div:nth-child(1) {
@@ -276,10 +297,15 @@ body {
     font-size: 12px;
   }
 
+  #about-title {
+    margin-top: 20%;
+    font-size: 30px;
+    margin-bottom: 7%;
+  }
+
   #content {
     display: grid;
     gap: 25px;
-    margin-top: 70px;
   }
 
   #content > div:nth-child(1) {
