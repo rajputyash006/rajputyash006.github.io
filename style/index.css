@@ -66,11 +66,20 @@ body {
   color: white;
 }
 
+#home-div {
+  margin: auto;
+  margin-top: 70px;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 #about-title {
   color: white;
   width: 60%;
   margin: auto;
-  margin-top: 8%;
   font-size: 45px;
   text-align: center;
   font-family: lato, sans-serif;
@@ -78,20 +87,16 @@ body {
 }
 
 #content {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  column-gap: 60px;
-  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  width: 70%;
   color: white;
   font-family: lato, sans-serif;
 }
 
-#content > div:nth-child(1) > img {
-  margin-right: 0px;
+.home-img {
   width: 300px;
   height: 300px;
-  margin-left: 150px;
   border-radius: 100%;
 }
 
@@ -104,22 +109,21 @@ body {
   background-color: transparent;
 }
 
-#content > div:nth-child(2) > p:nth-child(2) {
+#user-detail-name {
   margin-top: 15px;
   font-size: 50px;
 }
 
-#content > div:nth-child(2) > p:nth-child(3) {
+#position {
   margin-top: 5px;
   font-size: 30px;
 }
 
-#content > div:nth-child(2) > p:nth-child(5) {
+#user-detail-intro {
   font-size: 20px;
   margin-top: 15px;
   word-spacing: 3px;
   line-height: 26px;
-  width: 100%;
   font-family: lato, sans-serif;
 }
 
@@ -141,23 +145,38 @@ body {
   font-size: 20px;
 }
 
+#resume-2 {
+  padding: 5px;
+  margin: auto;
+  margin-top: 2%;
+}
+
+#resume-link-2 {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
 @media all and (min-width: 721px) and (max-width: 1024px) {
   #navbar11 {
     width: 85%;
   }
 
   #about-title {
-    margin-top: 12%;
     font-size: 35px;
-    margin-bottom: -5%;
+    width: 80%;
   }
 
   #content {
-    height: 500px;
     padding: 15px;
   }
 
-  #content > div:nth-child(1) > img {
+  #user-detail-intro {
+    font-size: 19px;
+  }
+
+  .home-img {
     width: 250px;
     height: 250px;
     margin-left: 50px;
@@ -169,12 +188,12 @@ body {
     margin-left: 0px;
   }
 
-  #content > div:nth-child(2) > p:nth-child(2) {
+  #user-detail-name {
     margin-top: 10px;
     font-size: 38px;
   }
 
-  #content > div:nth-child(2) > p:nth-child(3) {
+  #position {
     font-size: 22px;
   }
 
@@ -212,26 +231,30 @@ body {
     font-size: 18px;
   }
 
+  #home-div {
+    margin-top: 60px;
+    flex-direction: column;
+  }
+
   #about-title {
-    margin-top: 15%;
     font-size: 40px;
-    margin-bottom: 7%;
   }
 
   #content {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-    gap: 25px;
+    width: 80%;
+  }
+
+  #user-detail-intro {
+    font-size: 16px;
   }
 
   #content > div:nth-child(1) {
     text-align: center;
   }
 
-  #content > div:nth-child(1) > img {
-    width: 250px;
-    height: 250px;
+  .home-img {
+    width: 225px;
+    height: 225px;
     margin-left: 0px;
   }
 
@@ -242,12 +265,12 @@ body {
     margin-left: 50px;
   }
 
-  #content > div:nth-child(2) > p:nth-child(2) {
+  #user-detail-name {
     margin-top: 5px;
     font-size: 35px;
   }
 
-  #content > div:nth-child(2) > p:nth-child(3) {
+  #position {
     margin-top: 5px;
     font-size: 25px;
   }
@@ -297,23 +320,24 @@ body {
     font-size: 12px;
   }
 
+  #home-div {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
   #about-title {
-    margin-top: 20%;
     font-size: 30px;
-    margin-bottom: 7%;
   }
 
   #content {
-    display: grid;
-    gap: 25px;
+    width: 95%;
   }
 
-  #content > div:nth-child(1) {
-    text-align: center;
-    margin-left: -150px;
+  #user-detail-intro {
+    font-size: 16px;
   }
 
-  #content > div:nth-child(1) > img {
+  .home-img {
     width: 200px;
     height: 200px;
   }
@@ -329,12 +353,12 @@ body {
     font-size: 30px;
   }
 
-  #content > div:nth-child(2) > p:nth-child(2) {
+  #user-detail-name {
     margin-top: 5px;
     font-size: 30px;
   }
 
-  #content > div:nth-child(2) > p:nth-child(3) {
+  #position {
     margin-top: 5px;
     font-size: 19px;
   }

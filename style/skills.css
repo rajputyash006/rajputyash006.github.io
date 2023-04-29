@@ -1,5 +1,5 @@
 .skills-title {
-  width: 25%;
+  width: 35%;
   margin: auto;
   margin-top: 80px;
   border-radius: 10px;
@@ -133,7 +133,6 @@
 @media all and (min-width: 721px) and (max-width: 1024px) {
   .skills-title {
     width: 38%;
-    margin-top: 25px;
   }
 
   .skills-title > p {
@@ -207,7 +206,7 @@
 @media all and (min-width: 480px) and (max-width: 720px) {
   .skills-title {
     width: 60%;
-    margin-top: 140px;
+    margin-top: 50px;
   }
 
   .skills-title > p {
@@ -283,7 +282,7 @@
 @media all and (min-width: 320px) and (max-width: 479px) {
   .skills-title {
     width: 70%;
-    margin-top: 135px;
+    margin-top: 40px;
     border-radius: 5px;
   }
 
