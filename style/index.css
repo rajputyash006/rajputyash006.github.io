@@ -31,6 +31,7 @@ body {
   position: fixed;
   top: 0;
   background-color: rgb(24, 21, 21);
+  background-color: #ff000000;
 }
 
 #navbar11 {
