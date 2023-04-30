@@ -12,6 +12,7 @@ html {
 * {
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -117,6 +118,32 @@ body {
 #position {
   margin-top: 5px;
   font-size: 30px;
+}
+
+#position {
+  overflow: hidden;
+  border-right: 0.15em solid #039be5;
+  white-space: nowrap;
+  animation: typing 3s infinite, blink-caret 0.75s linear infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #039be5;
+  }
 }
 
 #user-detail-intro {
@@ -294,6 +321,10 @@ body {
   #location > p {
     font-size: 16px;
   }
+
+  #resume-link-2 {
+    font-size: 23px;
+  }
 }
 
 @media all and (min-width: 320px) and (max-width: 479px) {
@@ -383,5 +414,9 @@ body {
 
   #location > p {
     font-size: 15px;
+  }
+
+  #resume-link-2 {
+    font-size: 20px;
   }
 }
