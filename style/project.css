@@ -22,7 +22,7 @@
   width: 75%;
   margin: auto;
   margin-top: 80px;
-  border-radius: 15px;
+  border-radius: 11px;
 }
 
 #projectImage {
@@ -32,14 +32,8 @@
 #projectImage > img {
   width: 500px;
   height: 300px;
-  border-radius: 15px;
+  border-radius: 11px;
   border: 1px solid white;
-}
-
-#projectImage > img:hover {
-  cursor: pointer;
-  transform: scale(1.01);
-  box-shadow: 0 0 20px rgba(115, 115, 115, 0.75);
 }
 
 #projectDetails {
