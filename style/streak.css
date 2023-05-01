@@ -13,14 +13,14 @@
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-#github-stats-card {
+#github-stats {
   margin: auto;
   margin-top: 80px;
   width: 70%;
   text-align: center;
 }
 
-#github-stats-card > img {
+#github-streak-stats {
   width: 60%;
 }
 
@@ -33,7 +33,7 @@
     font-size: 35px;
   }
 
-  #github-stats-card {
+  #github-stats {
     margin-top: 45px;
     width: 100%;
   }
@@ -49,11 +49,11 @@
     font-size: 30px;
   }
 
-  #github-stats-card > img {
+  #github-streak-stats {
     width: 70%;
   }
 
-  #github-stats-card {
+  #github-stats {
     text-align: center;
     min-height: 0px;
     margin-top: 50px;
@@ -71,13 +71,13 @@
     font-size: 30px;
   }
 
-  #github-stats-card {
+  #github-stats {
     min-height: 0px;
     margin-top: 30px;
     width: 85%;
   }
 
-  #github-stats-card > img {
+  #github-streak-stats {
     width: 95%;
   }
 }
