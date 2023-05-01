@@ -174,8 +174,10 @@ body {
 
 #resume-2 {
   padding: 5px;
-  margin: auto;
-  margin-top: 2%;
+  margin-top: 5%;
+  border: 1px solid white;
+  width: 24.33%;
+  border-radius: 5px;
 }
 
 #resume-link-2 {
@@ -242,6 +244,10 @@ body {
 
   #location > p {
     font-size: 16px;
+  }
+
+  #resume-2 {
+    width: 33.33%;
   }
 }
 
@@ -320,6 +326,10 @@ body {
 
   #location > p {
     font-size: 16px;
+  }
+
+  #resume-2 {
+    width: 27%;
   }
 
   #resume-link-2 {
@@ -414,6 +424,10 @@ body {
 
   #location > p {
     font-size: 15px;
+  }
+
+  #resume-2 {
+    width: 31%;
   }
 
   #resume-link-2 {
