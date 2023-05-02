@@ -180,7 +180,7 @@ body {
   border-radius: 5px;
 }
 
-#resume-link-2 {
+#resume-button-2 {
   color: white;
   text-decoration: none;
   font-size: 26px;
@@ -332,7 +332,7 @@ body {
     width: 27%;
   }
 
-  #resume-link-2 {
+  #resume-button-2 {
     font-size: 23px;
   }
 }
@@ -430,7 +430,7 @@ body {
     width: 31%;
   }
 
-  #resume-link-2 {
+  #resume-button-2 {
     font-size: 20px;
   }
 }
