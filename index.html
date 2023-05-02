@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="image/png" href="./Images/boy-logo.png">
+    <link rel="shortcut icon" type="x-png" href="./Images/boy-logo.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yash Rajput's Portfolio</title>
@@ -30,10 +30,10 @@
                 <div><a class="nav-link about" href="#about">About</a></div>
                 <div><a class="nav-link skills" href="#skills">Skills</a></div>
                 <div><a class="nav-link projects" href="#projects">Project</a></div>
-                <div><a href="./images/Yash-Rajput-Resume.pdf" class="nav-link resume" target="_blank"
-                        id="resume-button-1" download=""
-                        onclick="window.open('https://drive.google.com/file/d/17Du8vojagimIfVyOm0zMdf19GvVd9S1f/view?usp=sharing');">
-                        Resume</a></div>
+                <div>
+                    <a class="nav-link resume" id="resume-link-1" href='./images/Yash-Rajput-Resume.pdf'
+                        download="Manoj-Resume">Resume</a>
+                </div>
                 <div><a class="nav-link contact" href="#contact">Contact</a></div>
             </div>
         </div>
@@ -59,10 +59,9 @@
                     <img src="./images/map-location.png" alt="location logo not found">
                     <p>Surat, Gujarat</p>
                 </div>
-                <div id="resume-2"><a href="./images/Yash-Rajput-Resume.pdf" target="_blank" id="resume-button-2"
-                        download=""
-                        onclick="window.open('https://drive.google.com/file/d/17Du8vojagimIfVyOm0zMdf19GvVd9S1f/view?usp=sharing');">
-                        Resume</a>
+                <div id="resume-2">
+                    <a class="nav-link resume" id="resume-link-2" href='./images/Yash-Rajput-Resume.pdf'
+                        download="Manoj-Resume">Resume</a>
                 </div>
             </div>
 
@@ -453,5 +452,26 @@
 
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "rajputyash006", { responsive: true });
+
+</script>
+
+
+<script>
+
+    function open_resume() {
+        window.open(
+            (href =
+                "https://drive.google.com/file/d/17Du8vojagimIfVyOm0zMdf19GvVd9S1f/view?usp=sharing")
+        );
+    }
+
+    let resume1 = document
+        .getElementById("resume-link-1")
+        .addEventListener("click", open_resume);
+
+    let resume2 = document
+        .getElementById("resume-link-2")
+        .addEventListener("click", open_resume);
+
 
 </script>
