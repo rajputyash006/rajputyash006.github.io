@@ -69,6 +69,10 @@
   color: springgreen;
 }
 
+#contact {
+  margin-bottom: 11%;
+}
+
 @media all and (min-width: 721px) and (max-width: 1024px) {
   #tag {
     font-size: 35px;
@@ -177,5 +181,9 @@
 
   #contact-div > div > div > a {
     margin-left: 5px;
+  }
+
+  #contact {
+    margin-bottom: 15%;
   }
 }
